@@ -38,6 +38,7 @@ if (isset($update['message'])) {
         ";
     } else {
         $response = "Sorry, I couldn't find the weather information for " . $cityName . ". Please check the spelling and try again. 
+        \n Kechirasiz, " . $cityName . " uchun ob-havo ma\'lumoti topilmadi. Yozuvni tekshiring va qayta urinib ko\'ring.
         \n⛅️ @Obhavoinforobot";
     }
 
