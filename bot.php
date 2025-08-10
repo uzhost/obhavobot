@@ -348,3 +348,8 @@ if (!empty($update['message'])) {
 // Graceful NO-OP for other update types
 http_response_code(200);
 echo 'OK';
+
+
+// Graceful NO-OP for other update types
+http_response_code(200);
+echo 'OK';
